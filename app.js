@@ -1,3 +1,7 @@
+const testFunction = () => {
+	console.log("hi");
+};
+
 $(() => {
-	//code here
+	$("img").on("click", testFunction);
 });
