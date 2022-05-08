@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: #F0F2A6;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 480px;
+    width: 480px;
+
+}
+
+.covered {
+    background-image: url(./images/3.png);
+    background-repeat: no-repeat;
+    background-size: 95px;
+    background-position: center;
+    display: inline-block;
+    opacity: 100;
+}
+
+.gameImg {
+	height: 100px;
+	width: 100px;
+    background-color: #F0F2A6;
+	opacity: 0;
+    margin: 10px;
+}
+
