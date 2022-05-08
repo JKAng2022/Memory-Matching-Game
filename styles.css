@@ -5,34 +5,37 @@
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    background: #F0F2A6;
+	height: 100vh;
+	display: flex;
+	background: #f0f2a6;
 }
 
 #board {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    height: 480px;
-    width: 480px;
-
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	height: 480px;
+	width: 480px;
 }
 
 .covered {
-    background-image: url(./images/1.png);
-    background-repeat: no-repeat;
-    background-size: 95px;
-    background-position: center;
-    display: inline-block;
-    opacity: 100;
+	background-image: url(./images/1.png);
+	background-repeat: no-repeat;
+	background-size: 95px;
+	background-position: center;
+	display: inline-block;
+	opacity: 100;
 }
 
 .gameImg {
 	height: 100px;
 	width: 100px;
-    background-color: #F0F2A6;
-	opacity: 100;
-    margin: 10px;
+	background-color: #f0f2a6;
+	opacity: 0;
+	margin: 10px;
+    /*prevents dragging to see underlying image */
+	-webkit-user-drag: none; 
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
 }
-
