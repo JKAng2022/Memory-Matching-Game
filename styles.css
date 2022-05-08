@@ -5,7 +5,7 @@
 }
 
 body {
-	height: 100vh;
+    height: 100vh;
 	display: flex;
 	background: #f0f2a6;
 }
@@ -33,9 +33,35 @@ body {
 	background-color: #f0f2a6;
 	opacity: 0;
 	margin: 10px;
-    /*prevents dragging to see underlying image */
-	-webkit-user-drag: none; 
+	/*prevents dragging to see underlying image */
+	-webkit-user-drag: none;
 	-khtml-user-drag: none;
 	-moz-user-drag: none;
 	-o-user-drag: none;
+    cursor: pointer;
+}
+
+#reset {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	text-decoration: none;
+	border: none;
+	padding: 12px 40px;
+	font-size: 16px;
+	background-color: #d0e3cc;
+	color: black;
+	border-radius: 5px;
+	box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+	cursor: pointer;
+}
+
+/* CSS CODE from https://www.geeksforgeeks.org/how-to-add-a-pressed-effect-on-button-click-in-css/ */
+
+#reset:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
 }
