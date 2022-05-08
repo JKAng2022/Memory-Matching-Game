@@ -19,5 +19,4 @@ If two images dont match, test array is cleared, and the opacity values and on c
 Other minor fixes: (1) Prevent dragging of images that allows ghosting and player to see the image underneath.
 
 9 May 2022 - Base game complete. To test for bugs.
-
-Vercel Deploy: <a href="https://memory-matching-game-hazel.vercel.app/" title="Vercel Deploy">
+Vercel Deploy: <a href="https://memory-matching-game-hazel.vercel.app/" title="Vercel Deploy">Vercel Deploy</a>
