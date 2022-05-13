@@ -74,14 +74,13 @@ const testIfMatch = () => {
 
 	// run code if match
 	if ($firstItem.attr("data-img") === $secondItem.attr("data-img")) {
-		console.log("hihi");
 		// push matching items to win Array
 		winArr.push($firstItem);
 		winArr.push($secondItem);
 		// clear out the testArr
 		testArr = [];
-		console.log(testArr);
-		console.log(winArr);
+		// console.log(testArr);
+		// console.log(winArr);
 		if (winArr.length === 16) {
 			setTimeout(() => alert("You win!"), 0);
 		}
